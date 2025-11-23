@@ -20,7 +20,7 @@ export default function HeroSection() {
         <Image
           src={Hero}
           alt="Hero"
-          className="h-[75vh] w-full rounded-lg m-auto "
+          className="  w-[100%] rounded-lg m-auto "
         />
       </div>
     </>
