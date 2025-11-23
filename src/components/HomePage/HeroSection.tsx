@@ -17,11 +17,7 @@ export default function HeroSection() {
             Get Started Today →
           </button>
         </div>
-        <Image
-          src={Hero}
-          alt="Hero"
-          className="  w-[100%] rounded-lg m-auto "
-        />
+        <Image src={Hero} alt="Hero" className="  w-full   rounded-lg m-auto " />
       </div>
     </>
   );
