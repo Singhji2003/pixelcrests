@@ -28,3 +28,12 @@
     @apply bg-[#007EEE] text-white;
   }
 }
+
+/* Hide scrollbar for Chrome/Edge/Safari */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for Firefox */
+.hide-scrollbar {
+  scrollbar-width: none;
+}

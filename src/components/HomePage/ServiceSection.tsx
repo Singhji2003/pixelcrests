@@ -50,11 +50,11 @@ export default function ServiceSection() {
         our expert team turns your vision into a powerful online presence.
       </p>
 
-      <div className="w-full mt-16 flex flex-wrap  justify-center gap-8 space-y-12 px-8">
+      <div className="w-full mt-16 flex overflow-x-auto overflow-y-visible hide-scrollbar h-max  gap-8 space-y-12 px-8 pt-12">
         {services.map((service, index) => (
           <div
             key={index}
-            className="w-[30%] min-h-[280px] rounded-2xl bg-white text-center relative p-4"
+            className="min-w-[30%] h-[310px] rounded-2xl bg-white text-center relative p-4"
           >
             <div className="bg-[#DDEFFE] p-2 shadow-md left-1/2 -translate-x-1/2 absolute -top-10 rounded-full w-max">
               <div className="bg-white p-4 shadow-md rounded-full w-max">

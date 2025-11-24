@@ -42,7 +42,7 @@ export default function ChooseUs() {
         trust, engage users, and drive results. Our focus is on understanding
         your vision and turning it into a powerful brand story that performs.
       </p>{" "}
-      <div className="grid grid-cols-1 w-[60%] md:grid-cols-2 text-left gap-16 py-10   mx-auto">
+      <div className="grid grid-cols-1 w-[70%] justify-center md:grid-cols-2 text-left gap-16 py-10   mx-auto">
         {features.map((feature) => (
           <div key={feature.id} className="flex items-start gap-4">
             <div className="flex items-center gap-2">

@@ -3,7 +3,7 @@ import Logo from "../assets/images/logo.png";
 import Link from "next/link";
 export default function Header() {
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+    <header className="bg-white shadow-sm px-8 sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center  py-6">
         <Image src={Logo} alt="Logo" className="w-44" />
         <nav className="space-x-8 text-black">
