@@ -15,7 +15,7 @@ export default function AboutSection() {
       <p className="text-[#005097] mt-2 font-bold text-2xl">
         Building Digital Experiences That Inspire Growth
       </p>
-      <p className="w-[62%] mt-2 font-light text-center m-auto ">
+      <p className="w-[70%] mt-2 font-light text-center m-auto ">
         At <strong className="font-bold"> PIXELCRESTS</strong>, we turn ideas
         into impactful digital experiences. As a full-service digital agency, we
         specialize in{" "}
@@ -25,7 +25,7 @@ export default function AboutSection() {
         </strong>{" "}
         — helping businesses grow, connect, and succeed online.
       </p>{" "}
-      <p className="w-[62%] mt-3 font-light text-center m-auto ">
+      <p className="w-[72%] mt-4 font-light text-center m-auto ">
         Our team blends{" "}
         <strong className="font-bold">
           {" "}

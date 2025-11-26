@@ -4,16 +4,20 @@ import ServiceSection from "@/components/HomePage/ServiceSection";
 import ChooseUs from "@/components/HomePage/ChooseUs";
 import FAQSection from "@/components/HomePage/FAQSection";
 import BannerSection from "@/components/HomePage/BannerSection";
+import WorkSection from "@/components/HomePage/WorkSection";
 
 export default function Home() {
   return (
-    <div className="mx-8">
+    <div className="">
       <HeroSection />
-      <AboutSection />
-      <ServiceSection />
-      <ChooseUs />
-      <BannerSection />
-      <FAQSection />
+      <div className="mx-8">
+        <AboutSection />
+        <ServiceSection />
+        <ChooseUs />
+        <BannerSection />
+        <WorkSection />
+        <FAQSection />
+      </div>
     </div>
   );
 }
